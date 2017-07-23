@@ -1,0 +1,16 @@
+{
+ "apply_user_permissions": 1, 
+ "creation": "2013-06-13 18:42:11", 
+ "docstatus": 0, 
+ "doctype": "Report", 
+ "idx": 1, 
+ "is_standard": "Yes", 
+ "modified": "2014-06-03 07:18:17.040345", 
+ "modified_by": "Administrator", 
+ "module": "Stock", 
+ "name": "Delivery Note Trends", 
+ "owner": "Administrator", 
+ "ref_doctype": "Delivery Note", 
+ "report_name": "Delivery Note Trends", 
+ "report_type": "Script Report"
+}

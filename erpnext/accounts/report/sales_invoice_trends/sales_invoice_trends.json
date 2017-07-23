@@ -1,0 +1,16 @@
+{
+ "apply_user_permissions": 1, 
+ "creation": "2013-06-13 18:44:21", 
+ "docstatus": 0, 
+ "doctype": "Report", 
+ "idx": 1, 
+ "is_standard": "Yes", 
+ "modified": "2014-06-03 07:18:17.291463", 
+ "modified_by": "Administrator", 
+ "module": "Accounts", 
+ "name": "Sales Invoice Trends", 
+ "owner": "Administrator", 
+ "ref_doctype": "Sales Invoice", 
+ "report_name": "Sales Invoice Trends", 
+ "report_type": "Script Report"
+}

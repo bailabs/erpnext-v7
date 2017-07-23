@@ -1,0 +1,16 @@
+{
+ "apply_user_permissions": 1, 
+ "creation": "2013-02-22 15:29:34", 
+ "docstatus": 0, 
+ "doctype": "Report", 
+ "idx": 1, 
+ "is_standard": "Yes", 
+ "modified": "2014-06-03 07:18:17.066168", 
+ "modified_by": "Administrator", 
+ "module": "HR", 
+ "name": "Employee Leave Balance", 
+ "owner": "Administrator", 
+ "ref_doctype": "Employee", 
+ "report_name": "Employee Leave Balance", 
+ "report_type": "Script Report"
+}

@@ -1,0 +1,16 @@
+{
+ "apply_user_permissions": 1, 
+ "creation": "2013-06-21 13:40:05", 
+ "docstatus": 0, 
+ "doctype": "Report", 
+ "idx": 1, 
+ "is_standard": "Yes", 
+ "modified": "2015-07-06 06:11:10.534423", 
+ "modified_by": "Administrator", 
+ "module": "Selling", 
+ "name": "Available Stock for Packing Items", 
+ "owner": "Administrator", 
+ "ref_doctype": "Product Bundle", 
+ "report_name": "Available Stock for Packing Items", 
+ "report_type": "Script Report"
+}
