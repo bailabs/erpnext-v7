@@ -404,7 +404,7 @@ class JournalEntry(AccountsController):
 
 		gl_map = []
 		for d in self.get("accounts"):
-			if d.debit or d.credit:
+			#if d.debit or d.credit:
 				gl_map.append(
 					self.get_gl_dict({
 						"account": d.account,
@@ -425,7 +425,7 @@ class JournalEntry(AccountsController):
 				)
 
 		if gl_map:
-			make_gl_entries(gl_map, cancel=cancel, adv_adj=adv_adj)
+			make_gl_entries(gl_map, cancel=cancel, adv_adj=adv_adj, merge_entries=False)
 
 	def get_balance(self):
 		if not self.get('accounts'):

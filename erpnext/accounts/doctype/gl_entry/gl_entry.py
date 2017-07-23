@@ -53,9 +53,9 @@ class GLEntry(Document):
 					.format(self.voucher_type, self.voucher_no, self.account))
 				
 		# Zero value transaction is not allowed
-		if not (flt(self.debit) or flt(self.credit)):
-			frappe.throw(_("{0} {1}: Either debit or credit amount is required for {2}")
-				.format(self.voucher_type, self.voucher_no, self.account))
+		#if not (flt(self.debit) or flt(self.credit)):
+		#	frappe.throw(_("{0} {1}: Either debit or credit amount is required for {2}")
+		#		.format(self.voucher_type, self.voucher_no, self.account))
 
 	def pl_must_have_cost_center(self):
 		if frappe.db.get_value("Account", self.account, "report_type") == "Profit and Loss":
